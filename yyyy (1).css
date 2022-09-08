@@ -1,5 +1,4 @@
 
---------------------------------- */
 #menu-wrapper{
 position:fixed;
 z-index: 999999;
@@ -130,30 +129,4 @@ nav { margin: 0; background: none; }
 .menu li a {
 background: $(submenu.background.color);
 color: $(submenu.text.color);
-}
-.menu li a:hover,.menu li:hover>a {
-background: $(menu.selected.background.color);
-color: $(menu.selected.text.color);
-}
-.menu ul {
-visibility: hidden;
-opacity: 0;
-top: 0;
-left: 0;
-width: 100%;
-transform: initial;
-}
-.menu li:hover>ul {
-visibility: visible;
-opacity: 1;
-position: relative;
-transform: initial;
-}
-.menu ul ul {
-left: 0;
-transform: initial;
-}
-.menu li>ul ul:hover {
-transform: initial;
-}
 }
